@@ -6,8 +6,8 @@ $vendorDir = dirname(dirname(__FILE__));
 $baseDir = dirname($vendorDir);
 
 return array(
-    'CrawlerInterFace' => $baseDir . '/crawler/CrawlerInterface.php',
     'api\\crawler\\BaseCrawler' => $baseDir . '/crawler/BaseCrawler.php',
+    'api\\crawler\\CrawlerInterFace' => $baseDir . '/crawler/CrawlerInterface.php',
     'api\\crawler\\cardCrawler' => $baseDir . '/crawler/cardCrawler.php',
     'api\\crawler\\libraryCrawler' => $baseDir . '/crawler/libraryCrawler.php',
     'api\\crawler\\registerCrawler' => $baseDir . '/crawler/registerCrawler.php',

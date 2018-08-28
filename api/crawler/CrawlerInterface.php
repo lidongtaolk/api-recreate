@@ -1,6 +1,8 @@
 <?php
+namespace api\crawler;
+
 interface CrawlerInterFace{
-    function login();
-    function grab();
+    public  function login($username,$passward);
+    public  function grab(Array $array);
 }
 ?>
